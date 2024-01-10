@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "5705e3a2-4b17-4e18-ba2c-30634f0114e3"
+        },
+        "resourceGroupName": {
+            "value": "RG-Agent"
+        },
+        "name": {
+            "value": "javawednesday"
+        },
+        "location": {
+            "value": "East US"
+        },
+        "hostingPlanName": {
+            "value": "ASP-RGAgent-9505"
+        },
+        "serverFarmResourceGroup": {
+            "value": "RG-Agent"
+        },
+        "alwaysOn": {
+            "value": false
+        },
+        "ftpsState": {
+            "value": "FtpsOnly"
+        },
+        "linuxFxVersion": {
+            "value": "JAVA|17-java17"
+        }
+    }
+}
